@@ -20,5 +20,5 @@ Amongst other classes/functionality, it contains:
 #### Tools for creating procedural meshes warped around Bezier curves (using rotation minimizing frames for minimal mesh rotation in XYZ axes)
   * _Assets/Scripts/SplineMesh/NDegreeBezierCurve.cs_</br> Class containing N-degree Bezier curve representation and methods to obtain derivatives/normals/positions at a position along the curve.
   * _Assets/Scripts/SplineMesh/Spline.cs_</br> Class forming a spline, which is a set of connected Bezier segments (_NDegreeBezierCurve_ objects), and methods to obtain derivatives/normals/positions/etc at a position along the spline, connected seperate Bezier segments, etc.
-    * _Assets/Scripts/SplineMesh/SplineFittedMesh.cs_</br> Class containing both the mesh to warp around the spline and the to-be-warped-mesh.
+  * _Assets/Scripts/SplineMesh/SplineFittedMesh.cs_</br> Class containing both the mesh to warp around the spline and the to-be-warped-mesh.
 
