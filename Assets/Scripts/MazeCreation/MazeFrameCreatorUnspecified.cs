@@ -53,7 +53,7 @@ public class MazeFrameCreatorUnspecified : MazeFrameCreator
 
 
     /// <summary>
-    /// Creates a list of nodes, arranged in a 3D square grid, to be used for 
+    /// Creates a list of nodes, to be used for 
     /// building a maze using one of the implemented algorithms.
     /// </summary>
     /// <returns>List of nodes.</returns>
