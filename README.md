@@ -2,7 +2,7 @@
 
 This is a work-in-progress procedural maze game developed in the Unity3D engine. The game is not finished, I put it on GitHub as a concrete example of C#/OOP.
 
-Amongst other classes/functionality, it contains:
+Highlighted functionality:
 ####  A set of classes and methods that allow easy manipulation of maze objects to form levels of arbitrary numbers of sub-mazes
   * _Assets/Scripts/MazeCreation/MazeFrame.cs_</br> Main maze class containing a set of interconnected _MazeNode_ objects, and a large set of methods to safely manipulate the MazeFrame object, such as concatenating mazes, merging mazes, rotating/translating in the game world, recursively manipulating its MazeNode objects, etc.
   * _Assets/Scripts/MazeCreation/MazeNode.cs_</br> Class describing individual maze nodes, i.e. a point in space with unconnected and connected neighbors. It contains methods to manipulate individual nodes and their connections. 
