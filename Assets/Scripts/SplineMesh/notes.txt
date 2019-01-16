@@ -1,0 +1,73 @@
+
+
+
+
+create cubic polynomial class
+
+create cubic spline class
+
+Bezier curves: lines generally does not pass through intermediate points
+quadratic bezier = 3 control points, passing through 1 and 3 
+cubiz bezier = 4 control points, passing through 1 and 4 
+4th order bezier = 5 control points, passing through 1 and 5 
+
+
+
+General recursive form of bezier curve:
+https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/spline/Bezier/bezier-der.html
+https://en.wikipedia.org/wiki/B%C3%A9zier_curve
+
+
+
+unity tutorial combining bezier curves:
+https://catlikecoding.com/unity/tutorials/curves-and-splines/
+
+Excellent description of computing normals
+https://stackoverflow.com/questions/25453159/getting-consistent-normals-from-a-3d-cubic-bezier-path
+
+https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/spline/Bezier/bezier-der.html
+
+
+From wikipedia:
+\mathbf {B} (t)=(1-t)^{3}\mathbf {P} _{0}+3(1-t)^{2}t\mathbf {P} _{1}+3(1-t)t^{2}\mathbf {P} _{2}+t^{3}\mathbf {P} _{3}{\mbox{ , }}0\leq t\leq 1.
+For some choices of P1 and P2 the curve may intersect itself, or contain a cusp.
+
+Any series of any 4 distinct points can be converted to a cubic Bézier curve that goes through all 4 points in order. Given the starting and ending point of some cubic Bézier curve, and the points along the curve corresponding to t = 1/3 and t = 2/3, the control points for the original Bézier curve can be recovered.[7]
+
+The derivative of the cubic Bézier curve with respect to t is
+
+{\displaystyle \mathbf {B} '(t)=3(1-t)^{2}(\mathbf {P} _{1}-\mathbf {P} _{0})+6(1-t)t(\mathbf {P} _{2}-\mathbf {P} _{1})+3t^{2}(\mathbf {P} _{3}-\mathbf {P} _{2})\,.} \mathbf {B} '(t)=3(1-t)^{2}(\mathbf {P} _{1}-\mathbf {P} _{0})+6(1-t)t(\mathbf {P} _{2}-\mathbf {P} _{1})+3t^{2}(\mathbf {P} _{3}-\mathbf {P} _{2})\,.
+The second derivative of the Bézier curve with respect to t is
+
+{\displaystyle \mathbf {B} ''(t)=6(1-t)(\mathbf {P} _{2}-2\mathbf {P} _{1}+\mathbf {P} _{0})+6t(\mathbf {P} _{3}-2\mathbf {P} _{2}+\mathbf {P} _{1})\,.} \mathbf {B} ''(t)=6(1-t)(\mathbf {P} _{2}-2\mathbf {P} _{1}+\mathbf {P} _{0})+6t(\mathbf {P} _{3}-2\mathbf {P} _{2}+\mathbf {P} _{1})\,.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
